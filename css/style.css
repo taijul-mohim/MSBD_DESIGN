@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto:ital,wght@0,500;0,700;800,900;1,400&display=swap');
+body{
+    font-family: "Roboto",sans-serif;
+    line-height: 1.7;
+}
+
+nav ul li a{
+  margin-right: 30px;
+}
+.banner-image {
+    background-image: url('../img/banner-img.jpg');
+    background-size: cover;
+  }
+/* nav  */
+.bg{
+  background:rgba(122, 171, 214, 0.8);
+
+}
+/* dropdown */
+.dropbtn {
+
+  color: white;
+
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:transparent;}
+/* end dropdown */
+
+  /* our service */
+  /* service section */
+  .img{
+    width: 50%;
+}
+.section-intro {
+  margin-bottom: 40px;
+}
+
+.section-intro .divider {
+  height: 4px;
+  width: 70px;
+  background:linear-gradient(rgba(17, 7, 254, 0.7), rgba(0, 224, 254, 0.7));
+  margin: 16px auto;
+}
+.service .service-img {
+  position: relative;
+}
+
+.btn {
+  padding: 14px 22px;
+  transition: all 0.3s ease;
+}
+
+.btn-main {
+  background: linear-gradient(to right,#00e0fe, #1107fe);
+  border-radius: 100px;
+  border: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn:hover {
+  color: #fff;
+  transform: translateY(-5px);
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(17, 7, 254, 0.7), rgba(0, 224, 254, 0.7));
+  z-index: -1;
+}
+.bg-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* about */
+/* client */
+.client{
+  transition: all 0.3s ease;
+
+
+}
+.client:hover {
+  color: #fff;
+  transform: translateY(-5px);
+}
+.review {
+  box-shadow: 0 12px 12px rgba(0,0,0,0.1);
+}
+.review .person {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+  padding-bottom: 18px;
+}
+
+.review .person img {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+
+}
+
+
+/* about */
+
+
+
+/* blog */
+.blog img{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.video-btn {
+  width: 60px;
+  height:60px;
+  background: linear-gradient(to right,#00e0fe, #1107fe);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  border-radius: 100px;
+}
+
+.video-btn i {
+  font-size: 32px;
+}
+form .form-control {
+  border-radius: 0;
+  background: transparent;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+form .form-control:focus {
+  color: #fff;
+  background: transparent;
+  border-color: #fff;
+}
+
+form input.form-control {
+  height: 54px;
+}
+
+form .form-control::placeholder {
+  color: #fff;
+}
+
+footer {
+  background:rgba(122, 171, 214, 0.8);;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
+
+
+
+
+
