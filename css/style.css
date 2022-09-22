@@ -194,8 +194,30 @@ footer a {
   color: #fff;
 }
 
+/* patient management */
 
+/* .patient img{
+  width: 500px;
+  height: 300px;
+  margin: auto;
+} */
+.list  {
+  list-style-type: "**";
+  color: #00e0fe;
+}
+.list  li  {
+  list-style: none;
+  position: relative;
+  padding: 3px 0 2px ;
+}
 
-
+.list  li::before {
+  content: '**';
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+    
+  
 
 
