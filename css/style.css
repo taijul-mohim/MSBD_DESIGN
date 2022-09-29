@@ -61,7 +61,7 @@ nav ul li a{
 
   /* our service */
   /* service section */
-  .img{
+.img{
     width: 50%;
 }
 .section-intro {
@@ -117,6 +117,11 @@ nav ul li a{
 
 
 }
+.box{
+  height: 400px;
+  width: 300px;
+}
+
 .client:hover {
   color: #fff;
   transform: translateY(-5px);
@@ -202,13 +207,12 @@ footer a {
   margin: auto;
 } */
 .list  {
-  list-style-type: "**";
-  color: #00e0fe;
+
+  color:black;
 }
 .list  li  {
   list-style: none;
-  position: relative;
-  padding: 3px 0 2px ;
+ 
 }
 
 
